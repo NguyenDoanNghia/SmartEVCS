@@ -20,7 +20,7 @@ const StationDetail = () => {
     const foundStation = mockStations.find(s => s.station_id === Number(station_id));
     setStation(foundStation);
 
-    // Load feedbacks
+    //  feedbacks
     const stationFeedbacks = mockFeedbacks.filter(f => f.station_id === Number(station_id));
     const feedbacksWithUsers = stationFeedbacks.map(f => ({
       ...f,
