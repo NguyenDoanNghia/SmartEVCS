@@ -43,7 +43,7 @@ const StationList = () => {
     <div className="station-list-manager">
       <div className="page-header-manager">
         <div>
-          <h1>Danh sách trạm phụ trách</h1>
+          <h1>Danh sách trạm phụ trách trạm</h1>
           <p>Quản lý {stations.length} trạm sạc</p>
         </div>
       </div>
@@ -84,7 +84,7 @@ const StationList = () => {
               <tr>
                 <td colSpan={7} className="empty-row">
                   <Building2 size={48} />
-                  <p>Không có trạm nào</p>
+                  <p>Không có trạm nào </p>
                 </td>
               </tr>
             ) : (

@@ -65,7 +65,6 @@ const Reports = () => {
         type: 'success'
       });
 
-      // Reset form
       setTitle('');
       setDescription('');
     } catch (error: any) {
